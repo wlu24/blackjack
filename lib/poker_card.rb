@@ -32,4 +32,12 @@ class PokerCard
   def to_s
     "#{@suit} #{@face_value}"
   end
+
+  def self.valid_suits
+    VALID_SUITS
+  end
+
+  def self.valid_face_values
+    VALID_FACE_VALUE
+  end
 end
