@@ -35,6 +35,7 @@ class PokerDeck
   end
 
   def to_s
+    return 'empty deck' if empty?
     @deck.map { |card| "#{card.suit} #{card.face_value}" }.join(', ')
   end
 end

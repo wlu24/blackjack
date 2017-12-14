@@ -69,5 +69,12 @@ RSpec.describe 'PokerDeck' do
       expect(deck1.to_s).to eq(deck2.to_s)
     end
   end
-
+  
+  describe '#to_s' do
+    it "returns 'empty deck' when the deck is out of cards" do
+      deck = PokerDeck.new
+      deck.deal_card(52)
+      expect(deck.to_s).to eq('empty deck')
+    end
+  end
 end
