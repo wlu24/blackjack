@@ -21,4 +21,4 @@ To play the game at terminal, run `$ruby play.rb` at the root directory of black
   
   * tie score but player has blackjack and dealer doesn't
   
-* __Game ties if tie score or both have blackjack__
+* __Game ties otherwise__
