@@ -22,7 +22,7 @@ require_relative 'poker_deck'
 # player wins if dealer busts
 #             if player score > dealer score
 #             if tie score but player has blackjack and dealer doesn't
-# game tie    if tie score or both have blackjack
+# game ties   if tie score or both have blackjack
 
 class BlackjackGame
   DEALER_RESOLVE_VALUE = 17
